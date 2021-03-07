@@ -1,0 +1,1106 @@
+*{
+    padding:0px;
+    margin:0px;
+    
+   
+    
+}
+
+a{
+    text-decoration: none;
+    color:#fff;
+}
+p,label,textarea,input{
+    font-family: 'Open Sans', sans-serif;
+}
+h2,h3{
+    font-family: 'Lexend Mega', sans-serif;
+}
+/* NAV */
+nav{
+   width:100%;
+    z-index: 100;
+   background:#F2F1EF;
+   padding:15px 0px;
+   position:fixed;
+   top:0px;
+   font-family: 'Poppins', sans-serif;
+}
+ #wrapperNav{
+    display: flex;
+    justify-content: space-between;
+    margin:0px 30px;
+}
+ nav #logo a{
+    font-size:1.8em;
+    font-weight: 600;
+    
+    color:#333;
+}
+ nav #links{
+    margin:10px 0px;
+    transition: .3s ease;
+
+}
+nav #hamburger{
+    display:none;
+}
+ nav #links a{
+
+    margin:0px 15px;
+    font-size:1em;
+    text-decoration: none;
+    color: #333;
+    font-weight: 500;
+   
+    transition: .3s ease;
+}
+
+ nav #links a:hover{
+    color:#6C7A89;
+}
+nav #links .active{
+    font-weight: 600;
+}
+
+
+
+
+/* HEADER */
+header{
+    min-height:75vh;
+    background-image: url('../img/heaader.jpg');
+    background-size: cover;
+    background-position: bottom;
+    
+}
+header #naslov{
+
+    color:#fff;
+    width:65%;
+    margin:0px auto;
+    padding-top:250px;
+    /* margin:auto auto; */
+    font-family: 'Poppins', sans-serif;
+}
+header #naslov h1{
+    font-size:4.8em;
+    margin-bottom: 20px;
+}
+header #naslov #sortFilterTekst{
+    font-size:1.5em;
+    color:#fff;
+}
+header #naslov p{
+    font-size:1.5em;
+    color:#fff;
+    padding-bottom: 25px;
+}
+header #naslov #dugme, main #projekcija #tekstProjekcija #dugme{
+    text-decoration: none;
+    padding:15px;
+    width:150px;
+    background-color: #CF000F;
+    text-align: center;
+    color:#fff;
+    border-radius: 5px;
+}
+header #naslov #dugme i,main #projekcija #tekstProjekcija #dugme i{
+    margin-right: 5px;
+}
+header #naslov #dugme a,main #projekcija #tekstProjekcija #dugme a{
+    color:#fff;
+    text-decoration: none;
+}
+
+
+/* MAIN */
+main{
+    color:#fff;
+}
+main #about{
+    width:65%;
+    padding-top: 100px;
+    margin:0px auto;
+    display: flex;
+    justify-content: space-between;
+}
+main #about #tekst{
+    width:30%;
+}
+main #about #tekst h2{
+    font-size:4em;
+    font-family: 'Lexend Mega', sans-serif;
+    margin-bottom: 50px;
+}
+
+main #about #tekst p{
+    line-height: 1.8;
+}
+main #about #opcije{
+    border:1px solid #CF000F;
+    padding:50px;
+    width: 50%;
+   text-align: left;
+    border-radius: 2px;
+   
+}
+main #about #opcije .opcija{
+    padding:20px 10px;
+    width:45%;
+    float: left;
+    
+}
+
+main #about #opcije h3{
+    font-family: 'Poppins', sans-serif;
+    margin-bottom: 10px;
+    letter-spacing: 1px;
+}
+main #about #opcije .opcija p{
+    text-align: left;
+    line-height: 1.5;
+}
+main #komentari{
+    width:65%;
+    margin:0px auto;
+    margin-top:100px;
+}
+main #komentari h2{
+    font-size:2.5em;
+    text-align: center;
+}
+main #komentari .podnaslov{
+    margin-top:20px;
+    color:#CF000F;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    text-align: center;
+    font-weight: 600;
+}
+main #komentari #blokoviKomentar {
+    display:flex;
+    justify-content: space-between;
+}
+main #komentari #blokoviKomentar .blokKomentar{
+    margin-top:50px;
+    height:300px;
+    width:30%;
+    border:1px solid #fff;
+    position:relative;
+}
+main #komentari #blokoviKomentar .blokKomentar p{
+    font-size:1em;
+    line-height: 1.6;
+    width:75%;
+    font-style: italic;
+    position:absolute;
+    top:50%;
+    left:50%;
+    transform: translate(-50%,-50%);
+}
+main #komentari #blokoviKomentar .blokKomentar p span:first-of-type{
+    margin-right: 10px;
+}
+main #komentari #blokoviKomentar .blokKomentar p span:last-child{
+    margin-left: 10px;
+}
+main #projekcija{
+    width:65%;
+    /* margin:200px auto; */
+    margin:0px auto;
+    padding:100px 0px;
+    display:flex;
+}
+main #projekcija #slikaProjekcija img{
+    width:60%;
+}
+main #projekcija #tekstProjekcija h2{
+    font-size:1.3em;
+    color:#CF000F;
+    margin-bottom: 20px;
+    font-family: 'Lexend Mega', sans-serif;
+}  
+main #projekcija #tekstProjekcija h3{
+    font-size:3em;
+    margin-bottom: 50px;
+}
+main #projekcija #tekstProjekcija p{
+    width:90%;
+    margin-bottom: 50px;
+    line-height: 1.8;
+}
+main #projekcija #tekstProjekcija a{
+    font-family: 'Poppins', sans-serif;
+}
+main,footer{
+    background-color: #000;
+}
+
+/* MOVIES */
+#formaFilterSort{
+    display: flex;
+}
+#formaFilterSort #sort{
+    width:200px;
+    height:36px;
+    margin-right: 50px;
+   font-size:1em;
+}
+#formaFilterSort #sort option{
+    padding:20px 0px;
+}
+#formaFilterSort #filter #pocetniPrikazFilter{
+    height:31px;
+    background-color: #fff;
+    color:#000;
+    padding:5px 5px 0px 5px;
+    display: flex;
+    justify-content: space-between;
+    width:200px;
+    
+}
+#formaFilterSort #filter #pocetniPrikazFilter i{
+    padding-top:6px;
+    font-size:.75em;
+}
+#formaFilterSort #filter{
+    width:200px;
+    
+}
+#zanrovi{
+    padding:10px 10px;
+    display:none;
+    background:#fff;
+    color:#333;
+    width:190px
+}
+#zanrovi input{
+    margin-bottom: 10px;
+    margin-right: 10px;
+}
+.prikazZanr{
+    display:block!important;
+}
+
+
+
+
+
+
+main #filmovi{
+    width:65%;
+    margin:0px auto;
+    
+    padding:100px 0px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+#filmovi .film{
+    width:22%;
+    margin-bottom: 50px;
+
+}
+
+#filmovi .film:nth-child(4){
+    flex-wrap: after;
+}
+#filmovi .film img{
+    width:100%;
+}
+
+#filmovi .film h2{
+    min-height:40px;
+    margin: 20px 0px;
+    font-size:1.4em;
+}
+#filmovi .film .genre{
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 10px;
+
+}
+#filmovi .film .genre p{
+    background:rgba(207, 0, 15,0.7);
+    text-align: center;
+    border-radius: 2px;
+    padding:10px 15px;
+    margin-bottom: 10px;
+    margin-right: 10px;
+     height:20px;
+     border-radius: 50px;
+}
+
+#filmovi .film p{
+    margin-bottom: 5px;
+    font-size:.9em;
+}
+#filmovi .film p:nth-of-type(2){
+   margin-bottom: 30px;
+}
+#filmovi .film a{
+   
+    border:1px solid #CF000F;
+    padding:10px 20px;
+    text-decoration: none;
+    color:#fff;
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+    text-transform: uppercase;
+    transition: .3s ease;
+    border-radius: 50px;
+    
+}
+#filmovi .film a:hover{
+    
+    background-color: #CF000F;
+}
+
+
+/* CALENDAR */
+main #podnaslov{
+    width: 65%;
+    margin:0px auto;
+}
+main #datumi{
+    width:65%;
+    margin:0px auto;
+    padding:100px 0px;
+    display: flex;
+    flex-wrap: wrap;
+    
+}
+main #datumi .datum{
+    padding-bottom: 20px;
+    width:30%;
+    
+   
+ 
+}
+main #datumi .datum h2{
+    margin-bottom: 50px;
+    font-size:2.5em;
+}
+main #datumi .datum .projekcijaFilmova{
+    display: flex;
+    flex-wrap: wrap;
+}
+main #datumi .datum .filmProjekcija{
+    margin-bottom: 30px;
+    margin-right: 50px;
+    width:80%!important;
+    position:relative;
+    padding-left: 20px;
+   
+}
+.linija{
+    height:100%;
+    width:4px;
+    background-color: #CF000F;
+    position:absolute;
+    left:0px;
+}
+
+main #datumi .datum .filmProjekcija .vremePrikaz{
+    display: flex;
+    margin-top:15px;
+}
+main #datumi .datum .filmProjekcija .vremePrikaz p{
+    margin-right: 10px;
+}
+
+
+
+/* AUTHOR */
+#autor{
+    width:65%;
+    margin:0px auto;
+    display: flex;
+    justify-content: space-between;
+    padding:100px 0px;
+}
+#autor #slikaAutor{
+    width: 30%;
+}
+#autor #slikaAutor img{
+    width: 100%;
+}
+#autor #tekstAutor .infoAutor{
+    margin-bottom: 50px;
+}
+#autor #tekstAutor .infoAutor h2{
+    font-size:2.5em;
+    margin-bottom: 50px;
+}
+#autor #tekstAutor{
+    line-height:1.8;
+}
+
+/* CONTACT */
+#contactInfoBlock{
+    margin-top:50px;
+    width:50%;
+    display: flex;
+    flex-wrap: wrap;
+}
+#contactInfoBlock .contactInfo{
+    width: 45%;
+    margin-bottom: 20px;
+}
+#contactInfoBlock .contactInfo h3{
+    text-transform: uppercase;
+    margin-bottom: 10px;
+    color:#19B5FE;
+}
+#contactInfoBlock .contactInfo a{
+    font-size:1.25em;
+}
+#contact{
+    margin:0px auto;
+    padding:100px 0px;
+    width:65%;
+    display: flex;
+    justify-content: space-between;
+}
+#contact #forma{
+    width:50%;
+}
+#contact #forma h2{
+    margin-bottom: 50px;
+    color: #fff;
+}
+#contact #forma form{
+    width:75%;
+    display: flex;
+    flex-direction: column;
+    
+    
+}
+
+#contact #forma form .err{
+    color:#fff;
+    margin-top:10px;
+    margin-bottom: 20px;
+    letter-spacing: .6px;
+}
+#contact #forma form input{
+    height:42px;
+    padding-left: 10px;
+   
+  width:100%;
+    background-color: rgb(17,17,17);
+    border:0px;
+    color:#fff;
+    border-radius: 3px;
+}
+#contact #forma form textarea{
+    width:100%;
+    height:150px;
+    resize: none;
+    border:0px;
+    background-color: rgb(17,17,17);
+    border-radius: 3px;
+    padding:10px;
+    color:#fff;
+    font-size:1em;
+    margin-bottom:0px;
+}
+#contact #forma form input[type="submit"]{
+    background-color: rgb(207, 0, 15);
+    height:44px;
+    width:105%;
+}
+ #mapa {
+    width: 100%;
+    height:350px;
+    border:0px;
+    padding-bottom: 100px;
+}
+#mapa iframe{
+    width: 100%;
+    height:100%;
+    border:0px;
+}
+/* TICKETS */
+#karte{
+    width:65%;
+    margin:0px auto;
+    height:100vh;
+    padding:100px 0px;
+}
+#karte h2{
+    font-size:1.5em;
+    margin-bottom: 20px;
+}
+
+#bioskop {
+    display: flex;
+    margin:0px auto;
+    
+}
+#bioskop .kolona:nth-of-type(2){
+    margin:0px 20px;
+}
+#bioskop .kolona .red{
+    display: flex;
+}
+#bioskop .kolona .red .sediste{
+    margin-right: 10px;
+    height:20px;
+    width:20px;
+    background-color: #fff;
+    margin-bottom: 10px;
+    border-radius: 1px;
+}
+/* FOOTER */
+footer{
+    width:100%;
+    color:#fafafa;
+    position:relative;
+}
+footer #wrapperFoo{
+    width: 65%;
+    min-height:350px;
+    margin:0px auto;
+}
+footer #gornjiFoo{
+    height:90%;
+    display:flex;
+    justify-content: space-between;
+   
+}
+footer #gornjiFoo h4{
+    font-size:1.2em;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    margin-bottom: 10px;
+    color:#6C7A89;
+    font-family: 'Lexend Mega', sans-serif;
+}
+footer #gornjiFoo .logoFoo h3{
+    font-size:2.8em;
+    padding-bottom: 20px;
+    font-family: 'Poppins', sans-serif;
+    
+}
+footer #gornjiFoo .logoFoo p{
+    font-size:1em;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 1.5px;
+    font-family: 'Lexend Mega', sans-serif;
+    color:#CF000F;
+}
+footer #gornjiFoo .aboutFoo{
+    width:250px;
+    line-height:1.5;
+    letter-spacing: .7px;
+    font-family: 'Open Sans', sans-serif;
+}
+footer #gornjiFoo #linksFoo{
+    display: flex;
+    flex-direction: column;
+}
+footer #gornjiFoo .latestMovies #linksFoo{
+    display: flex;
+    flex-direction: column;
+}
+footer #gornjiFoo .latestMovies #linksFoo a{
+    padding:5px 0px;
+    font-family: 'Open Sans', sans-serif;
+    color:#fff;
+}
+
+footer #gornjiFoo .kontaktInfoFoo .info{
+    display:flex;
+    padding:10px 0px;
+    font-size:1em;
+    font-family: 'Open Sans', sans-serif;
+}
+footer #gornjiFoo .kontaktInfoFoo .info a{
+    color:#fafafa;
+}
+footer #donjiFoo{
+    /* height:10%; */
+    display:flex;
+    position:absolute;
+    bottom:20px;
+    width:65%;
+    justify-content: space-between;
+}
+footer #donjiFoo #leviBlok{
+    
+    padding-top:15px;
+    position:relative;
+    left:0px;
+    font-family: 'Open Sans', sans-serif;
+    display: flex;
+}
+footer #donjiFoo #leviBlok a{
+    margin-left:20px;
+}
+footer #donjiFoo #desniBlok{
+    font-size:1.6em;
+    position:relative;
+    left:0px;
+}
+footer #donjiFoo #desniBlok i{
+    padding:0px 10px;
+}
+#getTicket{
+    background:rgba(0,0,0,0.9);
+    height:100vh;
+    width:100vw;
+    display: none;
+    position:fixed;
+    top:0px;
+}
+#getTicket #getTicketBlock{
+    width: 25%;
+    height:50%;
+    background:#fff;
+    position:absolute;
+    top:50%;
+    left:50%;
+    transform:translate(-50%,-50%);
+    padding:50px;
+}
+#getTicket #getTicketBlock #gornjiGetTicket{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 50px;
+}
+#getTicket #getTicketBlock #gornjiGetTicket i{
+    font-size:1.5em;
+}
+#formaGetTicket .form-group{
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 15px;
+   
+}
+#formaGetTicket .form-group label{
+    margin-bottom: 10px;
+    font-size: 1.2em;
+    font-weight: 600;
+}
+.form-group input,.form-group select{
+    height:36px;
+    padding-left: 5px;
+    border-radius: 5px;
+    border:0px;
+    background:rgb(122, 95, 95);
+    color:#fff;
+}
+#submitTicket{
+    height:40px;
+    border:0px;
+    width:100%;
+    margin-top:10px;
+    background:#CF000F;
+    color:#fff;
+    border-radius: 5px;
+    
+}
+/* Orders */
+main #orders{
+    width:65%;
+    margin:0px auto;
+    padding:100px 0px;
+    display: flex;
+    justify-content:space-between;
+    flex-wrap: wrap;
+}
+main #orders .prazanLs p{
+    line-height: 2;
+}
+main #orders .filmBooked{
+    width:22%;
+    
+    margin-bottom: 50px;
+}
+main #orders .filmBooked img{
+    width:100%;
+    margin-bottom: 20px;
+}
+main #orders .filmBooked p:nth-of-type(1){
+    margin-bottom: 10px;
+   margin-top:20px;
+}
+main #orders .filmBooked p:nth-of-type(3){
+    margin-top:20px;
+    font-weight: 600;
+ }
+main #orders .filmBooked img{
+    width:100%;
+    margin-bottom: 20px;
+}
+@media screen and (max-width:1440px){
+    header #naslov{
+        padding-top:200px;
+    }
+    header #naslov h1 {
+        font-size: 4em;
+    }
+    header #naslov p {
+        font-size: 1.3em;
+    }
+    footer #gornjiFoo .aboutFoo {
+        width: 200px;
+        font-size: .95em;
+    }
+    footer #gornjiFoo .logoFoo p {
+        font-size: .9em;
+        letter-spacing: 1px;
+    }
+    footer #donjiFoo #desniBlok {
+        font-size: 1.3em;
+    }
+    #filmovi .film {
+        width: 30%;
+    }
+    main #datumi .datum .filmProjekcija {
+        width:15%;
+    }
+    #getTicket #getTicketBlock {
+        width: 35%;
+    }
+    #autor #tekstAutor {
+       width:50%;
+    }
+  
+}
+@media screen and (max-width:1280px){
+    header #naslov{
+        padding-top:150px;
+    }
+    header #naslov, main #about,main #komentari, main #projekcija,footer #wrapperFoo,main #filmovi,main #datumi,#contact,footer #donjiFoo,main #orders
+    {
+        width:75%;
+    }
+    header #naslov #dugme, main #projekcija #tekstProjekcija #dugme {
+        width: 120px; 
+    }
+    main #about #tekst h2 {
+        font-size: 3em;
+    
+    }
+    main #orders .filmBooked {
+        width: 29%;
+        margin-bottom: 50px;
+    }
+}
+@media screen and (max-width:1024px){
+    @keyframes navAnimacija{
+        from{
+            left:-1000px;
+        }
+        to{
+            left:0px;
+        }
+    }
+    #filmovi .film h2{
+        min-height:50px;
+        font-size:1.2em;
+    }
+    nav #hamburger{
+        display:block;
+    }
+    nav #hamburger i{
+        font-size:1.5em;
+        margin-top:3px;
+    }
+    nav #links{
+        display:none;
+        position:absolute;
+        top:50px;
+        left:0px;
+        width:100%;
+        background:#F2F1EF;
+        flex-direction: column;
+        padding:20px;
+       
+    }
+    nav #links a{
+        padding:10px 0px;
+    }
+    .otvoriNav{
+        display:flex!important;
+        animation:navAnimacija .5s;
+    }
+    header {
+        min-height: 50vh;
+       
+    }
+    main #about{
+        flex-wrap: wrap;
+    }
+    main #about #tekst {
+        width: 100%;
+    }
+    main #about #opcije {
+        margin-top:50px;
+        width: 100%;
+    }
+   
+    footer #gornjiFoo {
+       flex-direction: column;
+    }
+    footer #gornjiFoo .aboutFoo{
+        margin:50px 0px;
+    }
+    footer #gornjiFoo .kontaktInfoFoo{
+        margin:50px 0px;
+    }
+    #contactInfoBlock {
+       
+        width: 75%;
+   
+    }
+    #contact #forma {
+        width: 100%;
+    }
+    
+}
+@media screen and (max-width:768px){
+    #autor{
+        flex-wrap: wrap;
+    }
+    #autor #slikaAutor {
+        width: 50%;
+    }
+    #autor #tekstAutor {
+        width: 100%;
+    }
+    main #datumi .datum {
+        padding-bottom: 20px;
+        width: 45%;
+    }
+    header #naslov #sortFilterTekst {
+        font-size: 1.2em;
+        color: #fff;
+    }
+    #getTicket #getTicketBlock {
+        width: 50%;
+    }
+    main #komentari #blokoviKomentar .blokKomentar p {
+        font-size: .9em;
+        line-height: 1.5;
+        width: 75%;
+    
+    }
+}
+@media screen and (max-width:540px){
+    header #naslov h1 {
+        font-size: 3em;
+    }
+    header #naslov p {
+        font-size: 1.1em;
+    }
+    header #naslov #dugme, main #projekcija #tekstProjekcija #dugme {
+  
+        padding: 10px;
+        
+    }
+    main #about #tekst h2 {
+        font-size: 2.2em;
+    }
+    main #about #tekst p {
+        line-height: 1.8;
+        width:80%;
+    }
+    main #about #opcije .opcija {
+        padding: 10px 5px;
+        width: 100%;
+    }
+    main #komentari{
+        width: 95%;
+    }
+    main #komentari #blokoviKomentar .blokKomentar p {
+        font-size: .85em;
+    }
+    main #projekcija #tekstProjekcija h3 {
+        font-size: 2.2em;
+        margin-bottom: 50px;
+    }
+    main #projekcija #tekstProjekcija p {
+        width: 90%;
+        margin-bottom: 30px;
+        line-height: 1.6;
+        font-size:.95em;
+    }
+    main #about #opcije {
+       
+        padding: 30px;
+        
+    }
+    footer #donjiFoo {
+        flex-direction: column;
+        flex-direction: column-reverse;
+        position: static;
+    }
+    nav #hamburger i {
+        font-size: 1.3em;
+        margin-top: 5px;
+    }
+    #formaFilterSort #sort {
+        width: 150px;
+       margin-right: 20px;
+    }
+    #formaFilterSort #filter #pocetniPrikazFilter{
+       
+        width: 150px;
+    }
+    #zanrovi{
+        width:140px;
+    }
+    #filmovi .film {
+        width: 45%;
+    }
+    #filmovi .film .genre {
+        min-height:60px;
+    }
+    
+    #filmovi .film .genre p{
+        font-size:.85em;
+        padding:10px;
+    }
+    #getTicket #getTicketBlock {
+        width: 70%;
+        
+    }
+    #getTicket #getTicketBlock #gornjiGetTicket {
+
+        margin-bottom: 20px;
+    }
+    #getTicket #getTicketBlock #gornjiGetTicket h2{
+        font-size:1.2em;
+        
+    }
+    main #datumi .datum .filmProjekcija {
+        width: 30%;
+    }
+    #contactInfoBlock {
+        width: 100%;
+    }
+    #contactInfoBlock .contactInfo h3 {
+        font-size:1.2em;
+    }
+    #contactInfoBlock .contactInfo a {
+        font-size: 1em;
+    }
+    main #datumi .datum {
+        padding-bottom: 20px;
+        width: 47%;
+    }
+    main #orders .filmBooked {
+        width: 45%;
+        margin-bottom: 50px;
+    }
+    
+}
+@media screen and (max-width:414px){
+    main #datumi .datum {
+        padding-bottom: 20px;
+        width: 100%;
+    }
+    main #podnaslov {
+        width: 85%;
+        margin: 0px auto;
+    }
+    header #naslov h1 {
+        font-size: 2.7em;
+    }
+    main #komentari #blokoviKomentar {
+        flex-wrap: wrap;
+    }
+    main #komentari #blokoviKomentar{
+        width:75%;
+        margin:0px auto;
+    }
+    main #komentari #blokoviKomentar .blokKomentar {
+        height:150px;
+        width: 100%;
+    
+    }
+    footer #donjiFoo #leviBlok {
+        font-size:.8em;
+    }
+    #filmovi .film h2{
+        font-size:1.1em;
+    }
+    #filmovi .film a {
+        
+        padding: 10px 15px;
+        font-size: .9em;
+    }
+    #filmovi .film .genre p {
+        font-size: .7em;
+        padding: 10px;
+    }
+    #filmovi .film .genre p:nth-of-type(2){
+        margin-right: 0px;
+    }
+    header #naslov, main #about, main #komentari, main #projekcija, footer #wrapperFoo, main #filmovi, main #datumi, #contact,#autor {
+        width: 85%;
+    }
+    #contact #forma form {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+    }
+    #autor #tekstAutor .infoAutor h2 {
+        font-size: 2.5em;
+        margin-bottom:20px;
+    }
+    footer #gornjiFoo .logoFoo h3 {
+        font-size: 2.3em;
+        
+    }
+    #getTicket #getTicketBlock {
+        height:60%;
+        padding: 25px;
+    }
+}
+
+@media screen and (max-width:375px){
+    header #naslov, main #about, main #komentari, main #projekcija, footer #wrapperFoo, main #filmovi, main #datumi, #contact,#autor,main #orders {
+        width: 90%;
+    }
+    #contact #forma form {
+        width: 90%;
+        margin:0px auto;
+    }
+    nav #logo a {
+        font-size: 1.4em;
+        font-weight: 600;
+        color: #333;
+    }
+    #getTicket #getTicketBlock {
+        width: 85%;
+        height: 70%;
+      
+        padding: 20px;
+    }
+}
+
+@media screen and (max-width:320px){
+    #formaFilterSort {
+        flex-wrap: wrap;
+    }
+    #formaFilterSort #sort {
+        width: 160px;
+        margin-bottom: 20px;
+    }
+    #filmovi .film a {
+      
+        padding: 5px;
+
+    }
+    #filmovi .film .genre p {
+        font-size: .7em;
+        border-radius: 20px;
+        padding:10px 5px;
+    }
+}

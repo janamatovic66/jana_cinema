@@ -1,0 +1,18 @@
+[
+    {
+        "id":1,
+        "prikaz":"Release date oldest"
+    },
+    {
+        "id":2,
+        "prikaz":"Release date newest"
+    },
+    {
+        "id":3,
+        "prikaz":"Shortest duration"
+    },
+    {
+        "id":4,
+        "prikaz":"Longest duration"
+    }
+]

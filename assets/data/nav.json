@@ -1,0 +1,36 @@
+{
+    "logo" : [
+        {
+            "href":"index.html",
+            "prikaz": "Jana Cinema"
+        }
+    ],
+    "meni": [
+        {
+            "href":"index.html",
+            "prikaz":"Home"
+        },
+        {
+            "href":"movies.html",
+            "prikaz":"Movies"
+        },
+        {
+            "href":"calendar.html",
+            "prikaz":"Calendar"
+        },
+        {
+            "href":"contact.html",
+            "prikaz":"Contact"
+        },
+        {
+            "href":"author.html",
+            "prikaz":"Author"
+        },
+        {
+            "href":"orders.html",
+            "prikaz":"<i class='fas fa-tag'></i>"
+        }
+    ]
+    
+    
+}

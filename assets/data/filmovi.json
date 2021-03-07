@@ -1,0 +1,331 @@
+[
+    {
+        "id":1,
+        "img":{
+            "src":"assets/img/biggie.jpg",
+            "alt":"Biggie"
+        },
+        "naslov":"Biggie",
+        "kategorija":[
+            {
+                "idKat":8,
+                "naziv":"Documentary"
+            }
+        ],
+        "trajanje":{
+            "vreme":"97",
+            "ispis":"1hr 37min"
+        },
+        "datum":{
+            "date":"1.3.2021",
+            "ispis":"Mar 1,2020"
+        },
+        "projekcija":[
+            {
+                "idProjekcija":1,
+                "vremePrikazivanja":"12:45"
+            },
+            {
+                "idProjekcija":2,
+                "vremePrikazivanja":"15:45"
+            },
+            {
+                "idProjekcija":3,
+                "vremePrikazivanja":"17:45"
+            },
+            {
+                "idProjekcija":3,
+                "vremePrikazivanja":"19:45"
+            }
+        ]
+           
+    },
+    {
+        "id":2,
+        "img":{
+            "src":"assets/img/boss.jpg",
+            "alt":"Boss Level"
+        },
+        "naslov":"Boss Level",
+        "kategorija":[
+            
+            {
+                "idKat":1,
+                "naziv":"Action"
+            }
+        ],
+        "trajanje":{
+            "vreme":"100",
+            "ispis":"1hr 40min"
+        },
+        "datum":{
+            "date":"5.3.2021",
+            "ispis":"Mar 5,2021"
+        },
+        "projekcija":[
+            {
+                "idProjekcija":1,
+                "vremePrikazivanja":"12:00"
+            },
+            {
+                "idProjekcija":2,
+                "vremePrikazivanja":"15:00"
+            }
+            
+        ]
+
+    },
+    {
+        "id":3,
+        "img":{
+            "src":"assets/img/invisible_man.jpg",
+            "alt":"The Invisible Man"
+        },
+        "naslov":"The Invisible Man",
+        "kategorija":[
+            {
+                "idKat":5,
+                "naziv":"Drama"
+            },
+            {
+                "idKat":6,
+                "naziv":"Horror"
+            }
+        ],
+        "trajanje":{
+            "vreme":"124",
+            "ispis":"2hr 04min"
+        },
+        "datum":{
+            "date":"28.2.2021",
+            "ispis":"Feb 28,2020"
+        },
+        "projekcija":[
+            {
+                "idProjekcija":1,
+                "vremePrikazivanja":"18:00"
+            },
+            {
+                "idProjekcija":2,
+                "vremePrikazivanja":"20:00"
+            },
+            {
+                "idProjekcija":3,
+                "vremePrikazivanja":"22:00"
+            }
+        ]
+
+    },
+    {
+        "id":4,
+        "img":{
+            "src":"assets/img/little_things.jpg",
+            "alt":"The Little Things "
+        },
+        "naslov":"The Little Things ",
+        "kategorija":[
+            {
+                "idKat":4,
+                "naziv":"Crime"
+            },
+            {
+                "idKat":5,
+                "naziv":"Drama"
+            }
+        ],
+        "trajanje":{
+            "vreme":"128",
+            "ispis":"2hr 08min"
+        },
+        "datum":{
+            "date":"29.1.2021",
+            "ispis":"Jan 29 2021"
+        },
+        "projekcija":[
+            {
+                "idProjekcija":1,
+                "vremePrikazivanja":"13:50"
+            },
+            {
+                "idProjekcija":2,
+                "vremePrikazivanja":"18:50"
+            }
+        ]
+
+    },
+    {
+        "id":5,
+        "img":{
+            "src":"assets/img/monster_hunter.jpg",
+            "alt":"Monster Hunter"
+        },
+        "naslov":"Monster Hunter",
+        "kategorija":[
+            
+            {
+                "idKat":1,
+                "naziv":"Action"
+            },
+            {
+                "idKat":2,
+                "naziv":"Adventure"
+            }
+        ],
+        "trajanje":{
+            "vreme":"103",
+            "ispis":"1hr 43min"
+        },
+        "datum":{
+            "date":"18.12.2020",
+            "ispis":"Dec 18,2020"
+        },
+        "projekcija":[
+            {
+                "idProjekcija":1,
+                "vremePrikazivanja":"14:30"
+            }
+        ]
+
+    },
+    {
+        "id":6,
+        "img":{
+            "src":"assets/img/moxie.jpg",
+            "alt":"Moxie"
+        },
+        "naslov":"Moxie",
+        "kategorija":[
+            {
+                "idKat":3,
+                "naziv":"Comedy"
+            },
+            {
+                "idKat":5,
+                "naziv":"Drama"
+            }
+        ],
+        "trajanje":{
+            "vreme":"111",
+            "ispis":"1hr 51min"
+        },
+        "datum":{
+            "date":"3.3.2021",
+            "ispis":"Mar 3,2020"
+        },
+        "projekcija":[
+            {
+                "idProjekcija":1,
+                "vremePrikazivanja":"12:45"
+            },
+            {
+                "idProjekcija":2,
+                "vremePrikazivanja":"17:45"
+            },
+            {
+                "idProjekcija":2,
+                "vremePrikazivanja":"20:45"
+            }
+        ]
+
+    },
+    {
+        "id":7,
+        "img":{
+            "src":"assets/img/soul.jpg",
+            "alt":"Soul"
+        },
+        "naslov":"Soul",
+        "kategorija":[
+            {
+                "idKat":9,
+                "naziv":"animation"
+            }
+        ],
+        "trajanje":{
+            "vreme":"100",
+            "ispis":"1hr 40min"
+        },
+        "datum":{
+            "date":"25.12.2020",
+            "ispis":"Dec 25,2020"
+        },
+        "projekcija":[
+            {
+                "idProjekcija":1,
+                "vremePrikazivanja":"12:00"
+            }
+        ]
+
+    },
+    {
+        "id":8,
+        "img":{
+            "src":"assets/img/tom_i_dzeri.jpg",
+            "alt":"Tom and Jerry"
+        },
+        "naslov":"Tom and Jerry",
+        "kategorija":[
+            {
+                "idKat":9,
+                "naziv":"animation"
+            },
+            {
+                "idKat":3,
+                "naziv":"comedy"
+            }
+        ],
+        "trajanje":{
+            "vreme":"101",
+            "ispis":"1hr 41min"
+        },
+        "datum":{
+            "date":"26.2.2020",
+            "ispis":"Feb 26,2020"
+        },
+        "projekcija":[
+            {
+                "idProjekcija":1,
+                "vremePrikazivanja":"12:00"
+            },
+            {
+                "idProjekcija":1,
+                "vremePrikazivanja":"13:00"
+            }
+        ]
+
+    },
+    {
+        "id":9,
+        "img":{
+            "src":"assets/img/twist.jpg",
+            "alt":"twist"
+        },
+        "naslov":"Twist",
+        "kategorija":[
+            {
+                "idKat":1,
+                "naziv":"action"
+            },
+            {
+                "idKat":5,
+                "naziv":"drama"
+            }
+        ],
+        "trajanje":{
+            "vreme":"90",
+            "ispis":"1hr 30min"
+        },
+        "datum":{
+            "date":"10.3.2020",
+            "ispis":"Mar 3,2020"
+        },
+        "projekcija":[
+            {
+                "idProjekcija":1,
+                "vremePrikazivanja":"19:00"
+            }
+        ]
+
+    }
+
+]
